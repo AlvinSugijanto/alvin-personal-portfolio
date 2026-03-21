@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.css";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
+import Hero from "@/sections/hero/view";
+import Navbar from "@/components/Navbar";
+import AboutMe from "@/sections/about-me/view";
 import { Canvas } from "@react-three/fiber";
-import ParticleBackground from "./components/ParticleBackground";
+import ParticleBackground from "@/components/ParticleBackground";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
-        {/* <AboutMe /> */}
+        <AboutMe />
       </div>
     </div>
   );

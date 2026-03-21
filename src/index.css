@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,9 +17,4 @@ html, body, #root {
 
 body {
   background-color: #0a192f;
-}
-
-.app {
-  width: 100%;
-  min-height: 100vh;
 }

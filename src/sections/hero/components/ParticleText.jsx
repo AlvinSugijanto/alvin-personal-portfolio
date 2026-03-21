@@ -1,12 +1,12 @@
 import React, { useRef, useMemo, useEffect } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import useDeviceType from "@/hooks/useDeviceType";
 
-const ParticleText = ({ text = ["HELLO", "I'M ALVIN"], fontSize = 120 }) => {
+const ParticleText = ({ text = ["HELLO", "I'M ALVIN"] }) => {
   const particlesRef = useRef();
-  const mousePosition = useRef({ x: 0, y: 0 });
   const animationProgress = useRef(0);
-
+  const deviceType = useDeviceType();
   // Generate particle positions from text
   const { positions, targetPositions, colors } = useMemo(() => {
     // ini digunakan untuk buat imaginary canvas supaya bisa mengerti posisi text
@@ -17,6 +17,8 @@ const ParticleText = ({ text = ["HELLO", "I'M ALVIN"], fontSize = 120 }) => {
     canvas.width = 1200;
     canvas.height = 400;
 
+    const fontSize =
+      deviceType === "mobile" ? 60 : deviceType === "tablet" ? 90 : 120;
     // Configure text rendering
     ctx.fillStyle = "black";
     ctx.font = `bold ${fontSize}px Arial, sans-serif`;
@@ -30,8 +32,6 @@ const ParticleText = ({ text = ["HELLO", "I'M ALVIN"], fontSize = 120 }) => {
     text.forEach((line, index) => {
       ctx.fillText(line, canvas.width / 2, startY + index * lineHeight);
     });
-
-    console.log(canvas.toDataURL());
 
     // Sample pixels to create particles
     const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
@@ -55,7 +55,6 @@ const ParticleText = ({ text = ["HELLO", "I'M ALVIN"], fontSize = 120 }) => {
           // Convert canvas coordinates to 3D space
           const posX = (x - canvas.width / 2) / 100;
           const posY = -(y - canvas.height / 1.3) / 100;
-          // const posY = -(y - canvas.height / 2 + fontSize * 0.5) / 100;
 
           const posZ = 0;
 
@@ -87,7 +86,7 @@ const ParticleText = ({ text = ["HELLO", "I'M ALVIN"], fontSize = 120 }) => {
       targetPositions: new Float32Array(targetPos),
       colors: new Float32Array(particleColors),
     };
-  }, [text, fontSize]);
+  }, [text]);
 
   // Create geometry
   const particleGeometry = useMemo(() => {
