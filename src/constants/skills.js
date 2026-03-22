@@ -1,22 +1,29 @@
 export const skills = [
-  { name: "React", level: 95, icon: "https://cdn.simpleicons.org/react" },
-  {
-    name: "Three.js",
-    level: 90,
-    icon: "https://cdn.simpleicons.org/threedotjs",
-  },
-  { name: "Node.js", level: 88, icon: "https://cdn.simpleicons.org/nodedotjs" },
+  { name: "Next.js", icon: "https://cdn.simpleicons.org/nextdotjs" },
   {
     name: "TypeScript",
-    level: 85,
     icon: "https://cdn.simpleicons.org/typescript",
   },
-  { name: "Next.js", level: 92, icon: "https://cdn.simpleicons.org/nextdotjs" },
   {
-    name: "Tailwind CSS",
-    level: 90,
-    icon: "https://cdn.simpleicons.org/tailwindcss",
+    name: "Flutter",
+    icon: "https://cdn.simpleicons.org/flutter",
   },
-  { name: "MongoDB", level: 80, icon: "https://cdn.simpleicons.org/mongodb" },
-  { name: "WebGL", level: 75, icon: "https://cdn.simpleicons.org/webgl" },
+  {
+    name: "Python",
+    icon: "https://cdn.simpleicons.org/python",
+  },
+  {
+    name: "Laravel",
+    icon: "https://cdn.simpleicons.org/laravel",
+  },
+  {
+    name: "Git",
+    icon: "https://cdn.simpleicons.org/git",
+  },
+  { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs" },
+
+  {
+    name: "PostgreSQL",
+    icon: "https://cdn.simpleicons.org/postgresql",
+  },
 ];

@@ -15,6 +15,17 @@ html, body, #root {
   overflow-x: hidden;
 }
 
-body {
-  background-color: #0a192f;
+
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #0f2027, #0d2028, #203a43);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
 }

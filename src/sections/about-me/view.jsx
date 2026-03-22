@@ -47,27 +47,31 @@ const AboutMe = () => {
             </motion.h2>
 
             <motion.p
+              className="text-base sm:text-lg md:text-3xl mb-4 sm:mb-6 leading-relaxed text-gray-300"
+              variants={itemVariants}
+            >
+              Hi! I'm a{" "}
+              <span className="text-primary font-semibold">
+                Full Stack Developer!
+              </span>{" "}
+            </motion.p>
+            <motion.p
               className="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 leading-relaxed text-gray-300"
               variants={itemVariants}
             >
-              Hi! I'm a passionate{" "}
-              <span className="text-primary font-semibold">
-                Full Stack Developer
-              </span>{" "}
-              with a love for creating beautiful and functional web experiences.
-              I specialize in modern web technologies and 3D graphics.
+              I enjoy turning ideas into real digital products, building
+              applications that are not only functional but also intuitive and
+              enjoyable to use.
             </motion.p>
 
             <motion.p
               className="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 leading-relaxed text-gray-300"
               variants={itemVariants}
             >
-              With expertise in{" "}
-              <span className="text-primary font-semibold">
-                React, Three.js, and Node.js
-              </span>
-              , I build interactive applications that combine creativity with
-              cutting-edge technology.
+              From crafting clean and responsive user interfaces to designing
+              reliable systems behind the scenes, I aim to create applications
+              that are scalable, maintainable, and built with attention to
+              detail.
             </motion.p>
 
             <motion.div
@@ -76,9 +80,11 @@ const AboutMe = () => {
             >
               <div className="flex-1 min-w-[100px] px-4 sm:px-6 py-2 sm:py-3 bg-primary-500/20 border border-primary-500/50 rounded-lg backdrop-blur-sm hover:bg-primary-500/30 transition-all duration-300 text-center">
                 <p className="text-primary font-semibold text-sm sm:text-base">
-                  5+ Years
+                  2+ Years
                 </p>
-                <p className="text-xs sm:text-sm text-gray-400">Experience</p>
+                <p className="text-xs sm:text-sm text-gray-400">
+                  Work Experience
+                </p>
               </div>
               <div className="flex-1 min-w-[100px] px-4 sm:px-6 py-2 sm:py-3 bg-primary-500/20 border border-primary-500/50 rounded-lg backdrop-blur-sm hover:bg-primary-500/30 transition-all duration-300 text-center">
                 <p className="text-primary font-semibold text-sm sm:text-base">
@@ -104,16 +110,13 @@ const AboutMe = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <motion.h3
-              className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-white"
+              className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8"
               variants={itemVariants}
             >
               Skills & Expertise
             </motion.h3>
 
-            <div
-              className="grid grid-cols-1 sm:grid-cols-2 gap-4"
-              style={{ perspective: "1000px" }}
-            >
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 perspective-1000">
               {skills.map((skill, index) => (
                 <SkillsCard key={skill.name} skill={skill} index={index} />
               ))}

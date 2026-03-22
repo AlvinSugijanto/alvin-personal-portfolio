@@ -47,7 +47,7 @@ const Hero = () => {
             className="font-grotesk text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-relaxed sm:leading-loose tracking-[0.1em] sm:tracking-[0.15em] font-semibold uppercase text-gray-200"
             variants={itemVariants}
           >
-            FRONTEND DEVELOPER
+            FULLSTACK DEVELOPER
           </motion.p>
 
           <motion.div

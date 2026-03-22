@@ -11,6 +11,9 @@ module.exports = {
           DEFAULT: colors.cyan[400],
         },
       },
+      perspective: {
+        1000: "1000px",
+      },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         grotesk: ["Space Grotesk", "sans-serif"],
