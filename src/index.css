@@ -40,3 +40,43 @@ html, body, #root {
 .perspective-1000 {
   perspective: 1000px;
 }
+
+
+/* Swiper Pagination Custom Styles */
+.swiper-pagination-bullet {
+  background: #cbd5e1 !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0066ff !important;
+  width: 32px !important;
+  border-radius: 6px !important;
+}
+
+/* Swiper Navigation Custom Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  background: rgba(255, 255, 255, 0.9) !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  color: #1f2937 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+  padding: 8px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 1) !important;
+  
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}

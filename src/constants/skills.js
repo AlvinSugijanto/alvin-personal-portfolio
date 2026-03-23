@@ -17,8 +17,8 @@ export const skills = [
     icon: "https://cdn.simpleicons.org/laravel",
   },
   {
-    name: "Git",
-    icon: "https://cdn.simpleicons.org/git",
+    name: "Solidity",
+    icon: "https://cdn.simpleicons.org/solidity/00ccff",
   },
   { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs" },
 

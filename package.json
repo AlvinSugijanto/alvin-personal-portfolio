@@ -21,6 +21,7 @@
     "lucide-react": "^0.577.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "swiper": "^12.1.2",
     "three": "^0.182.0"
   },
   "devDependencies": {
