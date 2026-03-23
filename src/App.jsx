@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import AboutMe from "@/sections/about-me/view";
 import { Canvas } from "@react-three/fiber";
 import ParticleBackground from "@/components/ParticleBackground";
+import Experience from "./sections/experience/view";
+import Projects from "./sections/projects/view";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Navbar />
         <Hero />
         <AboutMe />
+        <Experience />
+        <Projects />
       </div>
     </div>
   );

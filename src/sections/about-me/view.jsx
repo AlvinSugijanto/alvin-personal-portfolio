@@ -29,7 +29,7 @@ const AboutMe = () => {
       id="about"
       className="relative w-full min-h-screen overflow-hidden flex items-center justify-center py-12 sm:py-16 md:py-20"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-16">
+      <div className="container mx-auto px-6 xs:px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Left: Text Content */}
           <motion.div

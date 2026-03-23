@@ -76,12 +76,12 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 flex justify-center items-center gap-2 text-white/60 text-xs sm:text-sm animate-bounce-slow">
+      {/* <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 flex justify-center items-center gap-2 text-white/60 text-xs sm:text-sm animate-bounce-slow">
         <div className="w-[22px] sm:w-[26px] h-[34px] sm:h-[40px] border-2 border-white/40 rounded-[11px] sm:rounded-[13px] relative">
           <div className="w-1 h-2 bg-white/60 rounded-[2px] absolute top-2 left-1/2 -translate-x-1/2 animate-scroll"></div>
         </div>
         <p>Scroll to explore</p>
-      </div>
+      </div> */}
     </section>
   );
 };

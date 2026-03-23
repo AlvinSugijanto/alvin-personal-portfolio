@@ -1,0 +1,42 @@
+export const projectsData = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    description: "A full-featured e-commerce platform with real-time inventory management.",
+    longDescription: "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+    image: "https://placehold.co/600x400/111827/06b6d4?text=E-Commerce+Platform",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    demoLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 2,
+    title: "Task Management App",
+    description: "A collaborative task management tool for remote teams.",
+    longDescription: "Developed a real-time collaborative workspace allowing teams to organize projects, assign tasks, and track progress using Kanban boards. Features include real-time chat, notifications, and integration with third-party tools.",
+    image: "https://placehold.co/600x400/111827/06b6d4?text=Task+Management+App",
+    technologies: ["Next.js", "Firebase", "Tailwind CSS", "Framer Motion"],
+    demoLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 3,
+    title: "AI Image Generator",
+    description: "Web application that leverages AI models to generate images from text.",
+    longDescription: "Integrated OpenAI's DALL-E API to create a simple yet powerful interface for generating custom images based on user concepts. Includes features for saving favorites to a personal gallery.",
+    image: "https://placehold.co/600x400/111827/06b6d4?text=AI+Image+Generator",
+    technologies: ["React", "OpenAI API", "Tailwind CSS", "Vite"],
+    demoLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 4,
+    title: "Financial Dashboard",
+    description: "An intuitive dashboard for tracking personal finances and expenses.",
+    longDescription: "A fully responsive dashboard application that provides users with insights into their spending habits through interactive charts and graphs. Uses secure authentication and data encryption.",
+    image: "https://placehold.co/600x400/111827/06b6d4?text=Financial+Dashboard",
+    technologies: ["Vue.js", "Chart.js", "Node.js", "PostgreSQL"],
+    demoLink: "#",
+    githubLink: "#",
+  }
+];
