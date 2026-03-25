@@ -88,15 +88,9 @@ const AboutMe = () => {
               </div>
               <div className="flex-1 min-w-[100px] px-4 sm:px-6 py-2 sm:py-3 bg-primary-500/20 border border-primary-500/50 rounded-lg backdrop-blur-sm hover:bg-primary-500/30 transition-all duration-300 text-center">
                 <p className="text-primary font-semibold text-sm sm:text-base">
-                  50+ Projects
+                  10+ Projects
                 </p>
                 <p className="text-xs sm:text-sm text-gray-400">Completed</p>
-              </div>
-              <div className="flex-1 min-w-[100px] px-4 sm:px-6 py-2 sm:py-3 bg-primary-500/20 border border-primary-500/50 rounded-lg backdrop-blur-sm hover:bg-primary-500/30 transition-all duration-300 text-center">
-                <p className="text-primary font-semibold text-sm sm:text-base">
-                  10+ Clients
-                </p>
-                <p className="text-xs sm:text-sm text-gray-400">Worldwide</p>
               </div>
             </motion.div>
           </motion.div>

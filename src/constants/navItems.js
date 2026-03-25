@@ -15,8 +15,8 @@ export const navItems = [
     label: "Projects",
     id: "projects",
   },
-  {
-    label: "Contact",
-    id: "contact",
-  },
+  // {
+  //   label: "Contact",
+  //   id: "contact",
+  // },
 ];

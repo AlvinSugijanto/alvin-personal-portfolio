@@ -18,19 +18,18 @@ export const projectsData = [
   },
   {
     title: "Sugijanto AI",
-    description:
-      "A full-featured e-commerce platform with real-time inventory management.",
+    description: "A LLM chat interface",
     longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+      "Developed a modern AI chat interface that allows users to interact with LLM via stream. The application features a clean conversational UI, message streaming, chat history management, and responsive design for a smooth user experience.",
     thumbnail:
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264023/bodhavara_l2fmv7.png",
     images: [
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264023/bodhavara_l2fmv7.png",
-      "https://res.cloudinary.com/dqax2zl31/video/upload/v1774264029/bodhavara_bhhsxj.mkv",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774459080/2_imldku.png",
+      "https://res.cloudinary.com/dqax2zl31/video/upload/v1774459089/1_lwnsru.mp4",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#",
+    technologies: ["Next.js", "Stream API", "Shadcn"],
+    demoLink: null,
+    githubLink: null,
   },
   {
     title: "Font Controls",
@@ -48,29 +47,32 @@ export const projectsData = [
     githubLink: "https://github.com/AlvinSugijanto/font-controls",
   },
   {
-    title: "BYD LANDING PAGE",
-    description:
-      "A full-featured e-commerce platform with real-time inventory management.",
+    title: "BYD Landing Page",
+    description: "A responsive landing page showcasing BYD electric vehicles.",
+
     longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+      "A landing page built to showcase BYD electric vehicles and their key features. The focus of this project was creating a clean layout, responsive design, and simple interactions to present product information clearly across different devices.",
+
     thumbnail:
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264026/1_quvpw9.png",
+
     images: [
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264026/1_quvpw9.png",
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264026/3_e1de0q.png",
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264026/4_kofgaz.png",
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264025/2_yknbve.png",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#",
+
+    technologies: ["Next.js"],
+
+    demoLink: "https://bydbipobandung.com",
+    githubLink: null,
   },
   {
     title: "Cloudify",
-    description:
-      "A full-featured e-commerce platform with real-time inventory management.",
+    description: "Decentralized cloud storage platform.",
     longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+      "This is an app that I created during a hackathon to explore a more secure alternative to traditional cloud services. The project focuses on solving common issues around data privacy and ownership by encrypting files directly on the client side before distributing them across a peer-to-peer network.",
     thumbnail:
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264031/1_cxeklg.png",
     images: [
@@ -79,34 +81,17 @@ export const projectsData = [
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264029/4_imbqzz.png",
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264028/3_wx5p5g.png",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#",
-  },
-  {
-    title: "Elemen Coffee",
-    description:
-      "A full-featured e-commerce platform with real-time inventory management.",
-    longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
-    thumbnail:
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264030/3_zouhxc.png",
-    images: [
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264030/3_zouhxc.png",
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264030/4_vcbg3f.png",
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264030/2_d8twg4.png",
-    ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#",
+    technologies: ["Solidity", "Next.js", "IPFS", "Viem"],
+    demoLink: "https://github.com/AlvinSugijanto/decentralized-storage",
+    githubLink: "https://github.com/AlvinSugijanto/decentralized-storage",
   },
 
   {
     title: "Nirbana",
     description:
-      "A full-featured e-commerce platform with real-time inventory management.",
+      "Nirbana is an e-commerce app that connects users and designers. Their main service is providing online design interior consultation services",
     longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+      "Developed an e-commerce application using Laravel with an integrated Midtrans instant payment gateway and a custom algorithm to analyze user design preferences.",
     thumbnail:
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264034/2_unouxs.png",
     images: [
@@ -115,24 +100,24 @@ export const projectsData = [
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264027/4_dezywa.png",
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264024/3_riv55w.png",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#",
+    technologies: ["Laravel", "MySQL", "Postman", "Docker"],
+    demoLink: null,
+    githubLink: null,
   },
   {
     title: "Petzilla",
-    description:
-      "A full-featured e-commerce platform with real-time inventory management.",
+    description: "E-commerce platform for dogs and cats.",
     longDescription:
-      "Built a comprehensive e-commerce solution that handles product cataloging, user authentication, a shopping cart, and secure checkout. Integrated with a payment gateway and utilized real-time database updates for inventory tracking.",
+      "Petzilla is an e-commerce platform for buying and selling dogs and cats. The platform supports transactions across Indonesia, but buyers can only purchase pets that are located within a 50 km radius of their address. This limitation helps ensure safer and more practical pet delivery between sellers and buyers.",
     thumbnail:
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264028/4_j5ptqc.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774328304/1_nht88j.png",
     images: [
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264028/4_j5ptqc.png",
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264027/1_uqjp1r.png",
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264028/4_j5ptqc.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774328304/1_nht88j.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774328304/2_rn0ffa.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774328303/3_i3kiqu.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774328303/4_uuwuxo.png",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    technologies: ["Laravel", "Livewire", "MySQL"],
     demoLink: "#",
     githubLink: "#",
   },

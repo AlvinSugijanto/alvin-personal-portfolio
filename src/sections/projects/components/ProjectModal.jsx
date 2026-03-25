@@ -90,7 +90,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 className="p-3 bg-white/5 hover:bg-white/10 text-white rounded-full transition-all border border-white/10 flex items-center justify-center cursor-pointer"
                 title="View Source on GitHub"
               >
-                <Github size={22} />
+                <Github size={18} />
               </a>
             )}
             {project.demoLink && (
@@ -98,41 +98,35 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 href={project.demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-primary hover:bg-primary/90 rounded-lg font-semibold transition-all flex items-center gap-2"
+                className="px-6 py-3 bg-primary hover:bg-primary/90 rounded-lg text-sm font-semibold transition-all flex items-center gap-2"
                 title="View Live Demo"
               >
                 <span>Live Demo</span>
-                <ExternalLink size={18} />
+                <ExternalLink size={16} />
               </a>
             )}
           </div>
         </div>
 
-        <div className="flex flex-col gap-8 lg:gap-12">
+        <div className="flex flex-col gap-8">
           {/* Main Description */}
           <div className=" space-y-4">
-            <h3 className="text-2xl font-semibold text-white flex items-center gap-3">
+            <h3 className="text-xl font-bold text-white flex items-center gap-3">
               Description
             </h3>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300  leading-relaxed">
               {project.longDescription || project.description}
             </p>
           </div>
 
           {/* Sidebar Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white flex items-center gap-3">
-              Technologies
+            <h3 className="text-xl font-bold text-white flex items-center gap-3">
+              Tech Stack
             </h3>
             <div className="flex flex-wrap gap-2 pt-1">
               {project.technologies.map((item) => (
-                // <span
-                //   key={tech}
-                //   className="px-4 py-2 text-sm bg-white/5 border border-white/10 hover:border-primary/50 rounded-full text-gray-300 hover:text-white transition-colors cursor-default"
-                // >
-                //   {tech}
-                // </span>
-                <Badge key={item} text={item} />
+                <Badge key={item} text={item} size="md" />
               ))}
             </div>
           </div>
