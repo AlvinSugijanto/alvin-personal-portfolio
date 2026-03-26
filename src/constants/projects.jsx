@@ -22,12 +22,27 @@ export const projectsData = [
     longDescription:
       "Developed a modern AI chat interface that allows users to interact with LLM via stream. The application features a clean conversational UI, message streaming, chat history management, and responsive design for a smooth user experience.",
     thumbnail:
-      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774264023/bodhavara_l2fmv7.png",
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774459080/2_imldku.png",
     images: [
       "https://res.cloudinary.com/dqax2zl31/image/upload/v1774459080/2_imldku.png",
       "https://res.cloudinary.com/dqax2zl31/video/upload/v1774459089/1_lwnsru.mp4",
     ],
     technologies: ["Next.js", "Stream API", "Shadcn"],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    title: "GPS Tracking System",
+    description: "A web based GPS tracking monitoring system",
+    longDescription:
+      "A web based GPS tracking system designed for real-time device location monitoring. Implemented customized map visualization, live tracking updates, and an interface for managing and observing multiple devices on an interactive map.",
+    thumbnail:
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774557506/2_p0os9y.png",
+    images: [
+      "https://res.cloudinary.com/dqax2zl31/image/upload/v1774557506/2_p0os9y.png",
+      "https://res.cloudinary.com/dqax2zl31/video/upload/v1774558142/0326_ucr6lz.mp4",
+    ],
+    technologies: ["Next.js", "Mapbox", "Supabase", "Websocket"],
     demoLink: null,
     githubLink: null,
   },
